@@ -10,7 +10,7 @@ export const Enums: React.FC<{
 }> = ({ enums, setEnums, objectValidationStates }) => {
   return (
     <>
-      <div className="grid grid-cols-[1fr_1fr] flex-wrap gap-2 text-slate-950 rounded-lg p-2">
+      <div className="grid grid-cols-[repeat(auto-fill,500px)] flex-wrap gap-2 text-slate-950 rounded-lg p-2">
         {enums.map((e, i) => (
           <EnumRenderer
             e={e}
