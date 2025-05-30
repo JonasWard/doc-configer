@@ -1,3 +1,21 @@
-# Doc-Configer prototype
+# bun-react-tailwind-template
 
-upload or create a json, download typescript type sheets
+To install dependencies:
+
+```bash
+bun install
+```
+
+To start a development server:
+
+```bash
+bun dev
+```
+
+To run for production:
+
+```bash
+bun start
+```
+
+This project was created using `bun init` in bun v1.2.7. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
